@@ -27,7 +27,7 @@ public class DemoResourceTest {
     @Test
     public void testConvertEndpoint() {
         String payload = "{\n" +
-                "  \"inputStr\": \"com.SQILLS.assignment an.ot8er Sample.1nput-Str\",\n" +
+                "  \"inputStr\": \"an.ot8er Sample.1nput-Str\",\n" +
                 "}";
 
 

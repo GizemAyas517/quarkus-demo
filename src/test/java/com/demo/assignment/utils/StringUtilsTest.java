@@ -15,8 +15,8 @@ public class StringUtilsTest {
 
     @Test
     public void testLogMessage() {
-        String testStr = "com.SQILLS.assignment an.oth8r Sample.1nput-Str";
-        String expectedResultStr = "COM_SQILLS_ASSIGNMENT AN_OTH8R SAMPLE_1NPUT_STR";
+        String testStr = "an.oth8r Sample.1nput-Str";
+        String expectedResultStr = "AN_OTH8R SAMPLE_1NPUT_STR";
         String result =  stringUtils.getLogMessage(testStr);
         Assertions.assertEquals(expectedResultStr,result);
     }
