@@ -16,7 +16,7 @@ public class StringUtilsTest {
     @Test
     public void testLogMessage() {
         String testStr = "an.oth8r Sample.1nput-Str";
-        String expectedResultStr = "AN_OTH8R SAMPLE_1NPUT_STR";
+        String expectedResultStr = "an.oth8r Sample.1nput-Str an_oth8r Sample_1nput_Str AN_OTH8R SAMPLE_1NPUT_STR ";
         String result =  stringUtils.getLogMessage(testStr);
         Assertions.assertEquals(expectedResultStr,result);
     }
